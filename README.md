@@ -70,11 +70,11 @@ Open your browser and navigate to http://127.0.0.1:5000
 🐳 How to Run with Docker
 This application is fully containerized. If you have Docker installed, you can run it instantly without configuring a local Python environment.
 
-4. ** Build the image: **
+4. **Build the image:**
    ```bash
    docker build -t food-classifier 
 
-5 **Run the container: **
+5 **Run the container:**
    ```bash
    docker run -p 5000:5000 food-classifier
 
