@@ -60,10 +60,11 @@ While building this project, I focused on connecting the ML model, backend API, 
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
    pip install -r requirements.txt
 
-Run the Application:
-
-python Food_app.py
-Access the App:
+2. **Run the Application:**
+   ```bash
+   python Food_app.py
+   
+3. **Access the App:**
 Open your browser and navigate to http://127.0.0.1:5000
 
 🐳 How to Run with Docker
