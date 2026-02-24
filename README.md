@@ -71,6 +71,7 @@ Open your browser and navigate to http://127.0.0.1:5000
 This application is fully containerized. If you have Docker installed, you can run it instantly without configuring a local Python environment.
 
 # Build the image
+   ```bash
 docker build -t food-classifier .
 
 # Run the container
