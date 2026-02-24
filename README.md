@@ -74,15 +74,6 @@ This application is fully containerized. If you have Docker installed, you can r
 docker build -t food-classifier .
 
 # Run the container
-docker run -p 5000:5000 food-classifier
-📂 Project Structure
-Plaintext
-├── ml_pipeline.py         # ML model initialization, warm-up, and inference logic
-├── Food_app.py            # Flask REST API and SQLite routing logic
-├── requirements.txt       # Pinned dependencies
-├── Dockerfile             # Containerization instructions
-├── food_history.db        # SQLite database (auto-generates on first run)
-├── templates/             
-│   ├── index.html         # Main upload UI (Bootstrap + AJAX)
-│   └── history.html       # Prediction history dashboard
-└── uploads/               # Temporary secure storage for inference processing
+   ```bash
+   docker run -p 5000:5000 food-classifier
+
