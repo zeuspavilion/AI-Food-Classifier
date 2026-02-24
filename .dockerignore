@@ -1,0 +1,6 @@
+venv/
+food_env/
+__pycache__/
+uploads/
+food_history.db
+*.pyc
